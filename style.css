@@ -1,0 +1,67 @@
+html {
+	scroll-behavior: smooth;
+}
+
+.about, .service, .portfolio, .contact {
+	position: relative;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	flex-direction: row;
+	width: 100%;
+	height:160px;
+}
+
+.jumbotron {
+	background-image: url('img/jumbotron.jpg');
+	background-size: cover;
+	height: 400px;
+	margin-top: 70px;
+}
+
+.jumbotron .display-4 {
+	margin-top: 30px;
+	margin-left: 535px;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.jumbotron .lead{
+	margin-left: 535px;
+}
+
+.jumbotron hr{
+	margin-left: 535px;
+	width: 570px;
+}	
+
+.jumbotron .btn{
+	margin-left: 535px;
+}
+
+.card {
+	width: 20rem;
+	margin-top: -75px;
+	margin-left: 40px;
+}
+
+.card .display-4 {
+	font-size:35px;
+}
+
+hr {
+	width: 100px;
+	border-top: 3px solid #eaeaea;
+	margin-top: -55px;
+
+}
+
+.col-md-3 img {
+	margin-right: -40px;
+	margin-left: 40px;
+}
+
+.testimonial {
+	background-color: #cce3ff;
+}
